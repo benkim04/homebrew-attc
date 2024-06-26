@@ -17,7 +17,7 @@ class AttachmentConverter < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     system "./configure", "--disable-silent-rules", *std_configure_args
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    system "make", "home-install"
+    system "make", "install"
   end
 
   test do
