@@ -1,0 +1,18 @@
+# Benkim04 Attachment-converter
+
+## How do I install these formulae?
+
+`brew install benkim04/attachment-converter/<formula>`
+
+Or `brew tap benkim04/attachment-converter` and then `brew install <formula>`.
+
+Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
+
+```ruby
+tap "benkim04/attachment-converter"
+brew "<formula>"
+```
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
