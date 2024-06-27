@@ -8,7 +8,7 @@ class Attc < Formula
   depends_on "dune" => :build
   depends_on "ocamlbuild" => :build
   depends_on "ocaml"
-  
+
   def install
     system "./configure", "--disable-silent-rules", *std_configure_args
     system "make", "home-install"
