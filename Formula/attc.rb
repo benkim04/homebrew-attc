@@ -11,7 +11,7 @@ class Attc < Formula
 
   def install
     ENV.deparallelize
-    system "./configure", "--disable-silent-rules", *std_configure_args
+    system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
     system "make", "home-install"
   end
 
