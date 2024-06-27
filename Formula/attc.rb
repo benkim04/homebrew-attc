@@ -12,6 +12,7 @@ class Attc < Formula
   def install
     ENV.deparallelize
     system "./configure", "--prefix=#{prefix}", "--mandir=#{man}"
+    system "make"
     system "make", "home-install"
   end
 
