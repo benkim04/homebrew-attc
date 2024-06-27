@@ -8,6 +8,7 @@ class Attc < Formula
   depends_on "dune" => :build
   depends_on "ocamlbuild" => :build
   depends_on "ocaml"
+  depends_on "opam" => :build
 
   def install
     ENV.deparallelize
