@@ -12,7 +12,7 @@ class Attc < Formula
 
   def install
     ENV.deparallelize
-    system "make", "install"
+    system "make", "brew-install"
   end
 
   test do
