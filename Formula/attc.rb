@@ -10,6 +10,7 @@ class Attc < Formula
   depends_on "ocaml"
 
   def install
+    ENV.deparallelize
     system "./configure", "--disable-silent-rules", *std_configure_args
     system "make", "home-install"
   end
