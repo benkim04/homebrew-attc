@@ -6,8 +6,8 @@ class Attc < Formula
   license "GPL-2.0"
 
   depends_on "opam" => :build
-  depends_on "libreoffice"
   depends_on "ghostscript"
+  depends_on "libreoffice"
   depends_on "pandoc"
   depends_on "verapdf"
   depends_on "vips"
