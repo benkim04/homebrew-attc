@@ -7,13 +7,13 @@ class Attc < Formula
 
   depends_on "opam" => :build
   depends_on "ghostscript"
-  depends_on cask: "libreoffice"
   depends_on "pandoc"
   depends_on "verapdf"
   depends_on "vips"
 
   def install
     ENV.deparallelize
+    system "brew", "install", "--cask", "libreoffice"
     system "make", "brew-install"
     bin.install "_build/default/main.exe" => "attc"
   end
