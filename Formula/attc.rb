@@ -7,7 +7,7 @@ class Attc < Formula
 
   depends_on "opam" => :build
   depends_on "ghostscript"
-  depends_on "libreoffice"
+  depends_on cask: "libreoffice"
   depends_on "pandoc"
   depends_on "verapdf"
   depends_on "vips"
