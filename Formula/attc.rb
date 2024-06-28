@@ -13,7 +13,7 @@ class Attc < Formula
 
   def install
     ENV.deparallelize
-    system "brew", "install", "--cask", "libreoffice"
+    system "brew", "install --cask libreoffice"
     system "make", "brew-install"
     bin.install "_build/default/main.exe" => "attc"
   end
