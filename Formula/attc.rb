@@ -6,9 +6,9 @@ class Attc < Formula
   license "GPL-2.0"
 
   depends_on "opam" => :build
-  depends_on "ocaml"
 
   def install
+    ENV.deparallelize
     system "make", "brew-install"
     bin.install "_build/default/main.exe" => "attc"
   end
