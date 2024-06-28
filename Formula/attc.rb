@@ -8,7 +8,6 @@ class Attc < Formula
   depends_on "opam" => :build
 
   def install
-    ENV.deparallelize
     system "make", "brew-install"
     bin.install "_build/default/main.exe" => "attc"
   end
