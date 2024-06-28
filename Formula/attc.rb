@@ -17,6 +17,14 @@ class Attc < Formula
     bin.install "_build/default/main.exe" => "attc"
   end
 
+  def caveats
+    <<~EOS
+      Attachment Converter depends on LibreOffice for some functionality.
+      Please install it using:
+        brew install --cask libreoffice
+    EOS
+  end
+
   test do
     system "true"
   end
