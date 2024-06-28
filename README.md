@@ -1,10 +1,10 @@
-# Benkim04 Attachment-converter
+# benkim04 Attachment-converter
 
 ## How do I install these formulae?
 
-`brew install benkim04/attachment-converter/<formula>`
+`brew install benkim04/attc/attc
 
-Or `brew tap benkim04/attachment-converter` and then `brew install <formula>`.
+Or `brew tap benkim04/attc` and then `brew install attc`.
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
