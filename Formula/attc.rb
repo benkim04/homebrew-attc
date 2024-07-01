@@ -1,11 +1,12 @@
 class Attc < Formula
   desc "Attachment Converter: tool for batch converting attachments in an email mailbox"
   homepage "https://github.com/benkim04/attachment-converter"
-  url "https://github.com/benkim04/attachment-converter/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "a66ce6d64a6748ff317c23f6a4df023ae337a4c46390db176c943cfc74d75f4e"
+  url "https://github.com/benkim04/attachment-converter/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "b8bd6c1e5fb775782860270adbd91162999b7d2ca7613f0d7156ca114e972f2b"
   license "GPL-2.0"
 
   depends_on "opam" => :build
+  depends_on "mercurial"
   depends_on "ghostscript"
   depends_on "pandoc"
   depends_on "verapdf"
@@ -20,6 +21,7 @@ class Attc < Formula
   def caveats
     <<~EOS
       Attachment Converter depends on LibreOffice for some functionality.
+
       Please install it using:
         brew install --cask libreoffice
     EOS
