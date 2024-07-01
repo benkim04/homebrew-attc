@@ -9,8 +9,8 @@ Or `brew tap benkim04/attc` and then `brew install attc`.
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
 ```ruby
-tap "benkim04/attachment-converter"
-brew "<formula>"
+tap "benkim04/attc"
+brew "attc"
 ```
 
 ## Documentation
