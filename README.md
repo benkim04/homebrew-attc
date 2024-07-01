@@ -2,7 +2,7 @@
 
 ## How do I install these formulae?
 
-`brew install benkim04/attc/attc
+`brew install benkim04/attc/attc`
 
 Or `brew tap benkim04/attc` and then `brew install attc`.
 
