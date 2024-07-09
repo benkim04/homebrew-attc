@@ -1,8 +1,8 @@
 class Attc < Formula
   desc "Attachment Converter: tool for batch converting attachments in an email mailbox"
   homepage "https://github.com/benkim04/attachment-converter"
-  url "https://github.com/benkim04/attachment-converter/archive/refs/tags/0.1.8.tar.gz"
-  sha256 "6283100812d69a9875777b403e93587b955328efdad60934328fc5753870617e"
+  url "https://github.com/benkim04/attachment-converter/archive/refs/tags/0.1.10.tar.gz"
+  sha256 "8aa2b288e956ab23e1e1249b6c43476da3f903fd2920abb4c193f722030fbb6e"
   license "GPL-2.0"
 
   depends_on "dune" => :build
