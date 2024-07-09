@@ -6,6 +6,7 @@ class Attc < Formula
   license "GPL-2.0"
 
   depends_on "opam" => :build
+  depends_on "dune" => :build
   depends_on "ghostscript"
   depends_on "mercurial"
   depends_on "pandoc"
