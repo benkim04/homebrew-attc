@@ -5,8 +5,8 @@ class Attc < Formula
   sha256 "5a880154fd2e6c15dcb06103f64f3dc0558d5d7d895ae36c27d383f5b470d034"
   license "GPL-2.0"
 
-  depends_on "opam" => :build
   depends_on "dune" => :build
+  depends_on "opam" => :build
   depends_on "ghostscript"
   depends_on "mercurial"
   depends_on "pandoc"
