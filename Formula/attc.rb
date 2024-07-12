@@ -16,8 +16,6 @@ class Attc < Formula
     ENV.deparallelize
     system "make", "brew-install"
     bin.install "_build/default/main.exe" => "attc"
-    system "mkdir", "-p", "#{share}/attachment-converter/scripts" 
-    system "cp", "#{prefix}/conversion-scripts/*.sh", "#{share}/attachment-converter/scripts"
   end
 
   def caveats
