@@ -14,7 +14,7 @@ class Attc < Formula
 
   def install
     ENV.deparallelize
-    system "make", "brew-install"
+    system "make", "pkg-build"
     bin.install "_build/default/main.exe" => "attc"
     lib.install Dir["conversion-scripts/*"]
   end
