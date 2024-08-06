@@ -2,7 +2,7 @@ class Attc < Formula
   desc "Tool for batch-converting attachments to preservation formats"
   homepage "https://github.com/benkim04/attachment-converter"
   url "https://github.com/benkim04/attachment-converter/archive/refs/tags/0.1.19.tar.gz"
-  sha256 "e713af10c8909f1d74d4ad1e719709891e7f81dfbf3c3c52faceb867b27712c7"
+  sha256 "9dd6312c10cb2e18f3dee613d8f81986e81d564d6397e8895faf0ddb8bb6c93d"
   license "GPL-2.0"
 
   depends_on "opam" => :build
